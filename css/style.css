@@ -80,7 +80,8 @@
     height: 85%;
     background: -webkit-linear-gradient(90deg, rgb(0, 161, 255), rgb(239, 0, 231));
     background: linear-gradient(90deg, rgb(17, 168, 255), rgb(75, 62, 255), rgb(235, 0, 228), rgb(255, 0, 38));
-    clip-path: polygon(0 100%, 0 0, 100% 0, 100% 36%);
+    clip-path: polygon(0 100%, 0 0, 100% 0, 100% 56%);
+    background-color: transparent;
 }
 
 .degraded::before {
@@ -95,9 +96,9 @@
 }
 
 .texto {
-    width: 50%;
+    width: 70%;
     height: 40%;
-    margin-top: 20px;
+    margin-top: 30px;
     margin-left: 100px;
     margin-bottom: 30px;
 }
@@ -107,7 +108,7 @@
     letter-spacing: 1px;
     font-family: 'Oxygen',
         sans-serif;
-    font-size: 60px;
+    font-size: 57px;
     color: #00013d;
     font-weight: bold;
 }
@@ -119,12 +120,34 @@
     position: absolute;
     width: 100%;
     height: 70%;
+    margin-bottom: 300px;
+}
+
+.container-home {
+    display: flex;
+    flex-direction: row;
+}
+
+.home-right {
+
+    width: 60%;
+}
+
+.home-left {
+    width: 10%;
+    height: 90%;
+
+    padding-top: 25px;
+}
+
+.home-left img {
+    height: 350px;
 }
 
 .btn-container {
     position: relative;
     margin-top: 35px;
-    top: 130px;
+    top: 140px;
     margin-left: 100px;
 }
 
